@@ -4,8 +4,8 @@ from PIL import Image
 src_path = "/Users/ryotaasai/Desktop/ポケモンフレンダ/写真/IMG_5206.PNG"
 dest_path = "images/IMG_5206_fixed.png"
 
-# Pattern 2: 1.25x crop (the one that makes Gachiguma look like Snorlax 1.5x)
-box_oversized = (97, 525, 1072, 1175)
+# Pattern 1: 1.5x tight crop
+box_oversized = (195, 590, 975, 1110)
 
 if os.path.exists(src_path):
     with Image.open(src_path) as img:
