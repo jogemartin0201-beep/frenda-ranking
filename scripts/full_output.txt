@@ -1,0 +1,114 @@
+=== JS DATA ===
+      { id: "NEW_200", season: "2-4", name: "ギラティナ", type: "ゴースト", attack: 141, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_201", season: "2-4", name: "ルチャブル", type: "ひこう", attack: 120, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "NEW_202", season: "2-4", name: "ビクティニ", type: "ほのお", attack: 121, hasGimmick: true, gimmick: "Zワザ", category: "物理" },
+      { id: "NEW_203", season: "2-3", name: "Zamazenta\nザマゼンタ", type: "はがね", attack: 137, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_204", season: "2-3", name: "Charizard\nリザードン", type: "ドラゴン", attack: 105, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "NEW_205", season: "2-3", name: "Palafin\nイルカマン", type: "みず", attack: 83, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_206", season: "2-2", name: "Giratina\nギラティナ", type: "ゴースト", attack: 111, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_207", season: "2-2", name: "Armarouge\nグレンアルマ", type: "ほのお", attack: 150, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_208", season: "2-2", name: "Shaymin\nシェイミ", type: "くさ", attack: 115, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_209", season: "2-2", name: "Tapu Koko\nカプ・コケコ", type: "フェアリー", attack: 111, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_210", season: "2-1", name: "Jirachi\nジラーチ", type: "はがね", attack: 111, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_211", season: "2-1", name: "Hydrapple\nカミツオロチ", type: "ドラゴン", attack: 137, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_212", season: "1-5", name: "Terapagos\nテラパゴス", type: "ノーマル", attack: 110, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_213", season: "1-5", name: "Walking Wake\nウネルミナモ", type: "みず", attack: 130, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_214", season: "1-5", name: "Gouging Fire\nウガツホムラ", type: "ほのお", attack: 120, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_215", season: "1-5", name: "Kommo-o\nジャラランガ", type: "かくとう", attack: 105, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_216", season: "1-5", name: "Maushold\nイッカネズミ", type: "ノーマル", attack: 90, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_217", season: "1-5", name: "Dondozo\nヘイラッシャ", type: "ドラゴン", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_218", season: "1-4", name: "Iron Leaves\nテツノイサハ", type: "くさ", attack: 129, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_219", season: "1-4", name: "Iron Boulder\nテツノイワオ", type: "いわ", attack: 120, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_220", season: "1-4", name: "Iron Crown\nテツノカシラ", type: "はがね", attack: 122, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_221", season: "1-4", name: "Gouging Fire\nウガツホムラ", type: "ほのお", attack: 115, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_222", season: "1-3", name: "Terapagos\nテラパゴス", type: "ノーマル", attack: 103, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_223", season: "1-3", name: "Zarude\nザルード", type: "くさ", attack: 117, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_224", season: "1-3", name: "Charizard\nリザードン", type: "ほのお", attack: 107, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_225", season: "1-3", name: "Iron Valiant\nテツノブジン", type: "かくとう", attack: 127, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_226", season: "1-2", name: "Lugia\nルギア", type: "ひこう", attack: 80, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_227", season: "1-2", name: "Ho-Oh\nホウオウ", type: "ほのお", attack: 114, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_228", season: "1-2", name: "Tinkaton\nデカヌチャン", type: "はがね", attack: 72, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_229", season: "1-2", name: "Chesnaught\nブリガロン", type: "かくとう", attack: 101, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_230", season: "1-2", name: "Delphox\nマフォクシー", type: "ほのお", attack: 107, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_231", season: "1-2", name: "Greninja\nゲッコウガ", type: "みず", attack: 97, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_232", season: "1-1", name: "Meowscarada\nマスカーニャ", type: "くさ", attack: 99, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_233", season: "1-1", name: "Skeledirge\nラウドボーン", type: "ほのお", attack: 99, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_234", season: "1-1", name: "Quaquaval\nウェーニバル", type: "みず", attack: 108, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_235", season: "1-1", name: "Celebi\nセレビィ", type: "くさ", attack: 85, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_236", season: "1-1", name: "Arcanine\nウインディ", type: "ほのお", attack: 91, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_237", season: "1-1", name: "Milotic\nミロカロス", type: "みず", attack: 91, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_238", season: "W", name: "エーフィ", type: "ノーマル", attack: 166, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_239", season: "W", name: "ブラッキー", type: "ノーマル", attack: 79, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_240", season: "W", name: "リーフィア", type: "ノーマル", attack: 141, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_241", season: "W", name: "グレイシア", type: "ノーマル", attack: 166, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_242", season: "W", name: "Mew\nミュウ", type: "エスパー", attack: 119, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_243", season: "W", name: "Pikachu\nピカチュウ", type: "でんき", attack: 85, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_244", season: "W", name: "Banette\nジュペッタ", type: "ゴースト", attack: 145, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "NEW_245", season: "W", name: "Venusaur\nメガフシギバナ", type: "くさ", attack: 113, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_246", season: "W", name: "Charizard\nメガリザードンX", type: "あく", attack: 95, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_247", season: "W", name: "Charizard\nメガリザードンY", type: "ほのお", attack: 122, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_248", season: "W", name: "Blastoise\nメガカメックス", type: "みず", attack: 96, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_249", season: "W", name: "Vaporeon\nシャワーズ", type: "みず", attack: 112, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_250", season: "W", name: "Flareon\nブースター", type: "ほのお", attack: 98, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_251", season: "W", name: "Sylveon\nニンフィア", type: "フェアリー", attack: 112, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_252", season: "W", name: "Mimikyu\nミミッキュ", type: "フェアリー", attack: 86, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_253", season: "W", name: "Ceruledge\nソウブレイズ", type: "ほのお", attack: 117, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_254", season: "2-2", name: "Lugia\nルギア", type: "ひこう", attack: 80, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "NEW_255", season: "2-2", name: "Ho-Oh\nホウオウ", type: "ほのお", attack: 114, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "NEW_256", season: "2-2", name: "Greninja\nゲッコウガ", type: "みず", attack: 97, hasGimmick: false, gimmick: "", category: "特殊" },
+
+=== Mapping Commands ===
+cp "写真/IMG_5181.PNG" "images/NEW_200.png"
+cp "写真/IMG_5183.PNG" "images/NEW_201.png"
+cp "写真/IMG_5186.PNG" "images/NEW_202.png"
+cp "写真/IMG_5191.PNG" "images/NEW_203.png"
+cp "写真/IMG_5193.PNG" "images/NEW_204.png"
+cp "写真/IMG_5199.PNG" "images/NEW_205.png"
+cp "写真/IMG_5202.PNG" "images/NEW_206.png"
+cp "写真/IMG_5207.PNG" "images/NEW_207.png"
+cp "写真/IMG_5208.PNG" "images/NEW_208.png"
+cp "写真/IMG_5209.PNG" "images/NEW_209.png"
+cp "写真/IMG_5214.PNG" "images/NEW_210.png"
+cp "写真/IMG_5219.PNG" "images/NEW_211.png"
+cp "写真/IMG_5222.PNG" "images/NEW_212.png"
+cp "写真/IMG_5224.PNG" "images/NEW_213.png"
+cp "写真/IMG_5225.PNG" "images/NEW_214.png"
+cp "写真/IMG_5227.PNG" "images/NEW_215.png"
+cp "写真/IMG_5228.PNG" "images/NEW_216.png"
+cp "写真/IMG_5229.PNG" "images/NEW_217.png"
+cp "写真/IMG_5234.PNG" "images/NEW_218.png"
+cp "写真/IMG_5235.PNG" "images/NEW_219.png"
+cp "写真/IMG_5236.PNG" "images/NEW_220.png"
+cp "写真/IMG_5239.PNG" "images/NEW_221.png"
+cp "写真/IMG_5240.PNG" "images/NEW_222.png"
+cp "写真/IMG_5244.PNG" "images/NEW_223.png"
+cp "写真/IMG_5246.PNG" "images/NEW_224.png"
+cp "写真/IMG_5248.PNG" "images/NEW_225.png"
+cp "写真/IMG_5251.PNG" "images/NEW_226.png"
+cp "写真/IMG_5252.PNG" "images/NEW_227.png"
+cp "写真/IMG_5256.PNG" "images/NEW_228.png"
+cp "写真/IMG_5257.PNG" "images/NEW_229.png"
+cp "写真/IMG_5258.PNG" "images/NEW_230.png"
+cp "写真/IMG_5259.PNG" "images/NEW_231.png"
+cp "写真/IMG_5263.PNG" "images/NEW_232.png"
+cp "写真/IMG_5264.PNG" "images/NEW_233.png"
+cp "写真/IMG_5265.PNG" "images/NEW_234.png"
+cp "写真/IMG_5267.PNG" "images/NEW_235.png"
+cp "写真/IMG_5268.PNG" "images/NEW_236.png"
+cp "写真/IMG_5269.PNG" "images/NEW_237.png"
+cp "写真/IMG_5270.PNG" "images/NEW_238.png"
+cp "写真/IMG_5271.PNG" "images/NEW_239.png"
+cp "写真/IMG_5272.PNG" "images/NEW_240.png"
+cp "写真/IMG_5273.PNG" "images/NEW_241.png"
+cp "写真/IMG_5274.PNG" "images/NEW_242.png"
+cp "写真/IMG_5277.PNG" "images/NEW_243.png"
+cp "写真/IMG_5278.PNG" "images/NEW_244.png"
+cp "写真/IMG_5283.PNG" "images/NEW_245.png"
+cp "写真/IMG_5284.PNG" "images/NEW_246.png"
+cp "写真/IMG_5285.PNG" "images/NEW_247.png"
+cp "写真/IMG_5286.PNG" "images/NEW_248.png"
+cp "写真/IMG_5287.PNG" "images/NEW_249.png"
+cp "写真/IMG_5289.PNG" "images/NEW_250.png"
+cp "写真/IMG_5290.PNG" "images/NEW_251.png"
+cp "写真/IMG_5294.PNG" "images/NEW_252.png"
+cp "写真/IMG_5295.PNG" "images/NEW_253.png"

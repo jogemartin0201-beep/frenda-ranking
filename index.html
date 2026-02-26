@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  　
+  <meta name="google-site-verification" content="Klbtxu-UjS5LAnQ3pjv-bg_rUuUvy3Cr_Bdnwubot-I" />
+
+  <!-- ═══ SEO タイトル & メタ ═══ -->
+  <title>ポケモンフレンダ 最強ピックランキング｜属性別 強さ・おすすめ完全攻略</title>
+  <meta name="description"
+    content="ポケモンフレンダのピック強さランキング。属性（タイプ）別に最強ピックを完全解説。ばつぐん・きゅうしょのダメージシミュレーション付き。フレンダ攻略・おすすめピック情報を随時更新中。">
+  <meta name="keywords" content="ポケモンフレンダ,フレンダ,最強ピック,ピック強さ,ランキング,攻略,おすすめ,属性別,タイプ別,ダメージ計算,かくとう,ほのお,みず,でんき">
+
+  <!-- ═══ OGP（SNSシェア用） ═══ -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ポケモンフレンダ 最強ピックランキング｜属性別 強さ完全攻略">
+  <meta property="og:description" content="ポケモンフレンダの属性別最強ピックランキング。ダメージシミュレーション・投票機能付き。">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="ポケモンフレンダ攻略">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ポケモンフレンダ 最強ピックランキング">
+  <meta name="twitter:description" content="属性別最強ピックをダメージ計算で徹底比較。フレンダ攻略の決定版。">
+
+  <!-- ═══ 構造化データ (JSON-LD) ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "ポケモンフレンダ 最強ピックランキング",
+    "description": "ポケモンフレンダの属性別最強ピックランキング。ダメージ計算式に基づくスコアで客観的に比較。",
+    "url": "https://あなたのサイトURL.com/",
+    "inLanguage": "ja",
+    "dateModified": "2025-02-24",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"ホーム","item":"https://あなたのサイトURL.com/"},
+        {"@type":"ListItem","position":2,"name":"最強ピックランキング","item":"https://あなたのサイトURL.com/ranking"}
+      ]
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "ポケモンフレンダ 最強ピック TOP5",
+      "description": "フレンダ属性別最強ピック一覧",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"ルナアーラ（ゴーストタイプ / Zワザ）"},
+        {"@type":"ListItem","position":2,"name":"ソルガレオ（はがねタイプ / Zワザ）"},
+        {"@type":"ListItem","position":3,"name":"ミュウツー（エスパータイプ / メガシンカ）"},
+        {"@type":"ListItem","position":4,"name":"ダークライ（あくタイプ / ワンダー）"},
+        {"@type":"ListItem","position":5,"name":"フーパ（あくタイプ）"}
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', sans-serif;
+      background: #f3f4f6;
+      color: #1a1a2e;
+      line-height: 1.6;
+    }
+
+    /* ─── ヘッダー ─── */
+    header {
+      background: #1a1a2e;
+      color: #fff;
+      padding: 16px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    header .sub {
+      font-size: 10px;
+      letter-spacing: .2em;
+      color: #9ca3af;
+      margin-bottom: 4px;
+    }
+
+    header h1 {
+      font-size: 17px;
+      font-weight: 900;
+    }
+
+    /* ─── メインコンテンツ ─── */
+    main {
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 16px 12px 60px;
+    }
+
+    /* ─── SEOコンテンツセクション（構造化テキスト） ─── */
+    .seo-intro {
+      background: #fff;
+      border-radius: 14px;
+      padding: 18px 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    }
+
+    .seo-intro h2 {
+      font-size: 16px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: #1a1a2e;
+    }
+
+    .seo-intro p {
+      font-size: 13px;
+      color: #374151;
+      line-height: 1.8;
+      margin-bottom: 8px;
+    }
+
+    .seo-intro ul {
+      font-size: 12px;
+      color: #6b7280;
+      padding-left: 20px;
+      line-height: 2;
+    }
+
+    /* ─── タイプ選択グリッド ─── */
+    .type-grid-wrap {
+      background: #fff;
+      border-radius: 14px;
+      padding: 12px 10px;
+      margin-bottom: 14px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    }
+
+    .type-grid-label {
+      font-size: 10px;
+      color: #6b7280;
+      font-weight: 700;
+      letter-spacing: .1em;
+      margin-bottom: 8px;
+    }
+
+    .type-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 5px;
+    }
+
+    .type-btn {
+      border-radius: 10px;
+      padding: 6px 2px 5px;
+      border: 1.5px solid #e5e7eb;
+      background: #f8fafc;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      transition: all .15s;
+      font-family: inherit;
+    }
+
+    .type-btn.active {
+      background: #1a1a2e;
+      border-color: #1a1a2e;
+      transform: scale(1.08);
+    }
+
+    .type-btn .t-emoji {
+      font-size: 15px;
+    }
+
+    .type-btn .t-name {
+      font-size: 8px;
+      font-weight: 600;
+      color: #6b7280;
+    }
+
+    .type-btn.active .t-name {
+      color: #fff;
+      font-weight: 800;
+    }
+
+    .type-btn .t-score {
+      font-size: 8px;
+      font-weight: 700;
+    }
+
+    .type-btn:disabled {
+      opacity: 0.3;
+      cursor: default;
+    }
+
+    /* ─── タイプ見出し ─── */
+    .type-hero {
+      background: #1a1a2e;
+      border-radius: 14px;
+      padding: 14px 16px;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      color: #fff;
+    }
+
+    .type-hero .emoji {
+      font-size: 38px;
+      line-height: 1;
+    }
+
+    .type-hero h2 {
+      font-size: 18px;
+      font-weight: 900;
+    }
+
+    .type-hero .sub {
+      font-size: 11px;
+      color: #9ca3af;
+    }
+
+    .type-hero .score {
+      margin-left: auto;
+      text-align: right;
+    }
+
+    .type-hero .score-label {
+      font-size: 9px;
+      color: #6b7280;
+    }
+
+    .type-hero .score-val {
+      font-size: 22px;
+      font-weight: 900;
+      line-height: 1.1;
+    }
+
+    /* ─── ランキングカード ─── */
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1.5px solid #e5e7eb;
+      border-left: 5px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 14px;
+      cursor: pointer;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+      transition: box-shadow .2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .card.rank1 {
+      border-color: #1a1a2e;
+      border-left-color: #1a1a2e;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .medal {
+      font-size: 22px;
+      line-height: 1;
+      flex-shrink: 0;
+      padding-top: 2px;
+    }
+
+    .medal.first {
+      font-size: 26px;
+    }
+
+    .poke-name {
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .poke-name.first {
+      font-size: 16px;
+    }
+
+    .badges {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      margin: 4px 0;
+    }
+
+    .badge {
+      font-size: 10px;
+      font-weight: 900;
+      padding: 2px 8px;
+      border-radius: 20px;
+      color: #fff;
+    }
+
+    .meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 11px;
+      color: #6b7280;
+    }
+
+    .score-main {
+      margin-left: auto;
+      font-size: 18px;
+      font-weight: 900;
+      color: #1a1a2e;
+    }
+
+    /* ─── HPバーセクション ─── */
+    .sim-hint {
+      text-align: center;
+      font-size: 11px;
+      color: #9ca3af;
+      margin-bottom: 6px;
+    }
+
+    .hp-row {
+      background: #fff;
+      border: 1.5px solid #e5e7eb;
+      border-left: 4px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 9px 12px;
+      margin-bottom: 6px;
+      transition: border-color .3s;
+    }
+
+    .hp-row.main-battle {
+      background: #f8faff;
+      border-left-color: #1a1a2e;
+    }
+
+    .hp-row-top {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 6px;
+    }
+
+    .star-badge {
+      font-size: 10px;
+      font-weight: 800;
+      background: #f3f4f6;
+      border: 1px solid #d1d5db;
+      padding: 2px 7px;
+      border-radius: 20px;
+    }
+
+    .mb-badge {
+      font-size: 9px;
+      font-weight: 700;
+      color: #fff;
+      background: #1a1a2e;
+      padding: 1px 6px;
+      border-radius: 6px;
+      margin-left: 6px;
+    }
+
+    .hit-badge {
+      font-size: 10px;
+      font-weight: 800;
+      border-radius: 20px;
+      padding: 2px 9px;
+      white-space: nowrap;
+      border: 1.5px solid;
+      margin-left: auto;
+    }
+
+    .hp-bar-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hp-bar-bg {
+      flex: 1;
+      background: #f3f4f6;
+      border-radius: 99px;
+      height: 10px;
+      overflow: hidden;
+    }
+
+    .hp-bar-fill {
+      height: 100%;
+      border-radius: 99px;
+      transition: none;
+    }
+
+    .hp-pct {
+      font-size: 13px;
+      font-weight: 800;
+      min-width: 38px;
+      text-align: right;
+    }
+
+    .hp-dmg {
+      font-size: 10px;
+      color: #9ca3af;
+      min-width: 44px;
+      text-align: right;
+    }
+
+    /* ─── 投票 ─── */
+    .vote-row {
+      display: flex;
+      justify-content: flex-end;
+      gap: 6px;
+      border-top: 1px solid #f3f4f6;
+      padding-top: 8px;
+      margin-bottom: 10px;
+    }
+
+    .vote-btn {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      background: #f3f4f6;
+      border: none;
+      border-radius: 20px;
+      padding: 5px 12px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 700;
+      color: #6b7280;
+      font-family: inherit;
+      transition: all .15s;
+    }
+
+    .vote-btn.voted {
+      background: #1a1a2e;
+      color: #fff;
+    }
+
+    /* ─── 掲示板 ─── */
+    .bbs {
+      background: #fff;
+      border: 1.5px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 16px 14px;
+    }
+
+    .bbs h3 {
+      font-size: 14px;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .bbs-form {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 10px 12px;
+      margin-bottom: 12px;
+    }
+
+    .bbs-form input,
+    .bbs-form textarea {
+      width: 100%;
+      border: 1.5px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 12px;
+      color: #1a1a2e;
+      background: #fff;
+      outline: none;
+      font-family: inherit;
+      margin-bottom: 7px;
+    }
+
+    .bbs-form textarea {
+      resize: none;
+    }
+
+    .bbs-form input:focus,
+    .bbs-form textarea:focus {
+      border-color: #1a1a2e;
+    }
+
+    .form-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .char-count {
+      font-size: 10px;
+      color: #9ca3af;
+    }
+
+    .submit-btn {
+      background: #1a1a2e;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 7px 20px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+      transition: opacity .15s;
+    }
+
+    .submit-btn:disabled {
+      background: #e5e7eb;
+      color: #9ca3af;
+      cursor: default;
+    }
+
+    .post {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+    }
+
+    .post-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+
+    .post-name {
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .post-time {
+      font-size: 10px;
+      color: #9ca3af;
+      margin-left: auto;
+    }
+
+    .post-text {
+      font-size: 12px;
+      color: #374151;
+      line-height: 1.65;
+    }
+
+    /* ─── SEOフッター ─── */
+    footer {
+      max-width: 560px;
+      margin: 20px auto 0;
+      padding: 0 12px 40px;
+    }
+
+    .seo-section {
+      background: #fff;
+      border-radius: 14px;
+      padding: 18px 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    }
+
+    .seo-section h2 {
+      font-size: 14px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: #1a1a2e;
+    }
+
+    .seo-section h3 {
+      font-size: 12px;
+      font-weight: 700;
+      margin: 12px 0 6px;
+      color: #374151;
+    }
+
+    .seo-section p {
+      font-size: 12px;
+      color: #6b7280;
+      line-height: 1.8;
+      margin-bottom: 6px;
+    }
+
+    .faq-item {
+      border-top: 1px solid #f3f4f6;
+      padding: 10px 0;
+    }
+
+    .faq-q {
+      font-size: 13px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 4px;
+    }
+
+    .faq-a {
+      font-size: 12px;
+      color: #6b7280;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ─── ヘッダー ─── -->
+  <header>
+    <div class="sub">ポケモンフレンダ 完全攻略</div>
+    <h1>属性別　最強ピックランキング</h1>
+  </header>
+
+  <main>
+    <!-- ─── SEO導入テキスト（検索エンジン用） ─── -->
+
+
+    <!-- ─── アプリ本体（JS で描画） ─── -->
+    <div id="type-grid-container"></div>
+    <div id="type-hero-container"></div>
+    <div id="cards-container"></div>
+    <div id="bbs-container"></div>
+  </main>
+
+  <!-- ─── SEOフッター（FAQ・関連キーワード） ─── -->
+  <section class="seo-intro" aria-label="サイト紹介">
+    <h2>ポケモンフレンダ 最強ピック｜属性別ランキング</h2>
+    <p>
+      ポケモンフレンダの最強ピックを<strong>属性（タイプ）別に完全ランキング</strong>化。
+      実機データから逆算した独自ダメージ計算式に基づき、全125種の★5ピックを客観的にスコアリング。
+      Zワザ・メガシンカ・テラスタルなどギミック込みの火力も正確に反映しています。
+    </p>
+    <ul>
+      <li>✅ 全18タイプ対応 — 属性別に最大TOP5を掲載</li>
+      <li>✅ タップでダメージシミュレーション（★2〜★4敵に実際のダメージ計算 ／ ばつぐん・きゅうしょは属性に関係なくランダム発生）</li>
+      <li>✅ ユーザー投票機能 — 実運用に基づく評価を反映</li>
+      <li>✅ 掲示板 — トレーナー同士の情報交換スペース</li>
+    </ul>
+  </section>
+  <footer>
+    <!-- FAQ -->
+    <section class="seo-section" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>よくある質問（FAQ）</h2>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Q. ポケモンフレンダで最強のピックは？</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">
+            現環境での最強ピックはルナアーラ（ゴースト・Zワザ）、ソルガレオ（はがね・Zワザ）、ミュウツー（エスパー・メガシンカ）などが上位です。
+            ただし属性によっておすすめピックが異なるため、このページの属性別ランキングをご参照ください。
+          </span>
+        </div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Q. フレンダのダメージ計算式は？</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">
+            ダメージ(%) = (ATK + ギミック加算) × k × ヒット補正。
+            物理技はk=0.271、特殊技はk=0.284。ばつぐんは×1.3、きゅうしょは×1.8。
+            ZワザやメガシンカはATKに+50〜70程度の加算補正があります。
+          </span>
+        </div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Q. スコア（pt）はどう計算する？</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">
+            スコア = ATK（+ギミック加算60pt固定）× k で算出した「ヒット時の敵HPダメージ%」です。
+            50pt以上がSSS、40pt以上SS、30pt以上S、30未満がAランクです。
+          </span>
+        </div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Q. かくとうタイプのおすすめピックは？</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">
+            かくとうタイプはレジギガス（ATK187・ギミックなし）、エルレイド（ATK155・メガシンカ）、テツノブジン（ATK127）などが上位です。このページの「かくとう」タブでご確認ください。
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 関連キーワード → SEO内部テキスト -->
+    <section class="seo-section">
+      <h2>フレンダ攻略情報</h2>
+      <h3>ランキングの見方</h3>
+      <p>
+        このランキングは実機データから逆算した計算式で全ピックをスコアリングしています。
+        「ポケモンフレンダ ピック 強さ」や「フレンダ 最強ピック」で調べている方に向けて、
+        属性別に最大TOP5のピックを掲載。Zワザ・メガシンカ・テラスタルといったギミックの
+        有無もスコアに反映しています。
+      </p>
+      <h3>シミュレーターの使い方</h3>
+      <p>
+        各カードをタップすると攻撃シミュレーションが起動。★2コリンク（メインバトル）・
+        ★3デデンネ・★4アマルルガの3体にどれだけダメージを与えられるかを確認できます。
+        ばつぐん・きゅうしょはランダムで発生します。
+      </p>
+      <h3>投票機能について</h3>
+      <p>
+        各ピックに👍（グッド）または👎（バッド）で投票できます。
+        実際にフレンダをプレイしているトレーナーの評価を集め、
+        今後のランキング改善に活用していきます。ぜひあなたの実感も教えてください。
+      </p>
+    </section>
+  </footer>
+
+  <script>
+    // ════════════════════════════════════════════════════════════
+    //  ポケモンフレンダ 最強ピックランキング — スタンドアロン版
+    //  SEO最適化 + 構造化データ対応
+    // ════════════════════════════════════════════════════════════
+
+    // ──── データ ────
+    const TYPE_CONFIG = {
+      ノーマル: { color: "#A8A878", emoji: "⚪" }, ほのお: { color: "#F08030", emoji: "🔥" },
+      みず: { color: "#6890F0", emoji: "💧" }, くさ: { color: "#78C850", emoji: "🌿" },
+      でんき: { color: "#F8D030", emoji: "⚡" }, こおり: { color: "#98D8D8", emoji: "❄️" },
+      かくとう: { color: "#C03028", emoji: "🥊" }, どく: { color: "#A040A0", emoji: "☠️" },
+      じめん: { color: "#E0C068", emoji: "🌍" }, ひこう: { color: "#A890F0", emoji: "🌬️" },
+      エスパー: { color: "#F85888", emoji: "🔮" }, むし: { color: "#A8B820", emoji: "🐛" },
+      いわ: { color: "#B8A038", emoji: "🪨" }, ゴースト: { color: "#705898", emoji: "👻" },
+      ドラゴン: { color: "#7038F8", emoji: "🐉" }, あく: { color: "#705848", emoji: "🌑" },
+      はがね: { color: "#B8B8D0", emoji: "⚙️" }, フェアリー: { color: "#EE99AC", emoji: "✨" },
+    };
+
+    const DATA = [
+      { id: "IMG_5180", season: "2-4", name: "ジガルデ", searchName: "ジガルデ", type: "じめん", attack: 117, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5181", season: "2-4", name: "ギラティナ", searchName: "ギラティナ", type: "ゴースト", attack: 141, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5182", season: "2-4", name: "レジギガス", searchName: "レジギガス", type: "かくとう", attack: 187, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5183", season: "2-4", name: "ルチャブル", searchName: "ルチャブル", type: "ひこう", attack: 120, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "IMG_5184", season: "2-4", name: "カイリュー", searchName: "カイリュー", type: "ドラゴン", attack: 160, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "IMG_5185", season: "2-4", name: "バンギラス", searchName: "バンギラス", type: "いわ", attack: 160, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "IMG_5186", season: "2-4", name: "ビクティニ", searchName: "ビクティニ", type: "ほのお", attack: 121, hasGimmick: true, gimmick: "Zワザ", category: "物理" },
+      { id: "IMG_5187", season: "2-4", name: "ゼラオラ", searchName: "ゼラオラ", type: "でんき", attack: 134, hasGimmick: true, gimmick: "Zワザ", category: "物理" },
+      { id: "IMG_5188", season: "2-4", name: "カビゴン", searchName: "カビゴン", type: "ノーマル", attack: 137, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
+      { id: "IMG_5189", season: "2-4", name: "シェイミ", searchName: "シェイミ", type: "くさ", attack: 144, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
+      { id: "IMG_5190", season: "2-3", name: "ザシアン<br><span style=\"font-size:10px;color:#9ca3af\">Zacian</span>", searchName: "ザシアン", type: "はがね", attack: 170, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5191", season: "2-3", name: "ザマゼンタ<br><span style=\"font-size:10px;color:#9ca3af\">Zamazenta</span>", searchName: "ザマゼンタ", type: "はがね", attack: 137, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5192", season: "2-3", name: "フーパ<br><span style=\"font-size:10px;color:#9ca3af\">Hoopa</span>", searchName: "フーパ", type: "あく", attack: 181, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5193", season: "2-3", name: "リザードン<br><span style=\"font-size:10px;color:#9ca3af\">Charizard</span>", searchName: "リザードン", type: "ドラゴン", attack: 105, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "IMG_5194", season: "2-3", name: "メタグロス<br><span style=\"font-size:10px;color:#9ca3af\">Metagross</span>", searchName: "メタグロス", type: "はがね", attack: 158, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "IMG_5195", season: "2-3", name: "ガブリアス<br><span style=\"font-size:10px;color:#9ca3af\">Garchomp</span>", searchName: "ガブリアス", type: "じめん", attack: 153, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "IMG_5196", season: "2-3", name: "エルレイド<br><span style=\"font-size:10px;color:#9ca3af\">Gallade</span>", searchName: "エルレイド", type: "かくとう", attack: 155, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "IMG_5197", season: "2-3", name: "マホイップ<br><span style=\"font-size:10px;color:#9ca3af\">Alcremie</span>", searchName: "マホイップ", type: "フェアリー", attack: 141, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5198", season: "2-3", name: "ブリジュラス<br><span style=\"font-size:10px;color:#9ca3af\">Archaludon</span>", searchName: "ブリジュラス", type: "でんき", attack: 147, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5199", season: "2-3", name: "イルカマン<br><span style=\"font-size:10px;color:#9ca3af\">Palafin</span>", searchName: "イルカマン", type: "みず", attack: 83, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5200", season: "2-2", name: "カイオーガ<br><span style=\"font-size:10px;color:#9ca3af\">Kyogre</span>", searchName: "カイオーガ", type: "みず", attack: 164, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5201", season: "2-2", name: "グラードン<br><span style=\"font-size:10px;color:#9ca3af\">Groudon</span>", searchName: "グラードン", type: "じめん", attack: 164, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5202", season: "2-2", name: "ギラティナ<br><span style=\"font-size:10px;color:#9ca3af\">Giratina</span>", searchName: "ギラティナ", type: "ゴースト", attack: 111, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5203", season: "2-2", name: "ハッサム<br><span style=\"font-size:10px;color:#9ca3af\">Scizor</span>", searchName: "ハッサム", type: "むし", attack: 155, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "IMG_5204", season: "2-2", name: "サーナイト<br><span style=\"font-size:10px;color:#9ca3af\">Gardevoir</span>", searchName: "サーナイト", type: "エスパー", attack: 150, hasGimmick: true, gimmick: "メガシンカ", category: "特殊" },
+      { id: "IMG_5205", season: "2-2", name: "ボーマンダ<br><span style=\"font-size:10px;color:#9ca3af\">Salamence</span>", searchName: "ボーマンダ", type: "ドラゴン", attack: 153, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "IMG_5206_fixed", season: "2-2", name: "ガチグマ<br><span style=\"font-size:10px;color:#9ca3af\">Ursaluna</span>", searchName: "ガチグマ", type: "ノーマル", attack: 158, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5207", season: "2-2", name: "グレンアルマ<br><span style=\"font-size:10px;color:#9ca3af\">Armarouge</span>", searchName: "グレンアルマ", type: "ほのお", attack: 150, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5208", season: "2-2", name: "シェイミ<br><span style=\"font-size:10px;color:#9ca3af\">Shaymin</span>", searchName: "シェイミ", type: "くさ", attack: 115, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5209", season: "2-2", name: "カプ・コケコ<br><span style=\"font-size:10px;color:#9ca3af\">Tapu Koko</span>", searchName: "カプ・コケコ", type: "フェアリー", attack: 111, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5210", season: "2-1", name: "ミュウツー<br><span style=\"font-size:10px;color:#9ca3af\">Mewtwo</span>", searchName: "ミュウツー", type: "エスパー", attack: 162, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5211", season: "2-1", name: "ソルガレオ<br><span style=\"font-size:10px;color:#9ca3af\">Solgaleo</span>", searchName: "ソルガレオ", type: "はがね", attack: 144, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5212", season: "2-1", name: "ルナアーラ<br><span style=\"font-size:10px;color:#9ca3af\">Lunala</span>", searchName: "ルナアーラ", type: "ゴースト", attack: 144, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5213", season: "2-1", name: "モモワロウ<br><span style=\"font-size:10px;color:#9ca3af\">Pecharunt</span>", searchName: "モモワロウ", type: "どく", attack: 98, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5214", season: "2-1", name: "ジラーチ<br><span style=\"font-size:10px;color:#9ca3af\">Jirachi</span>", searchName: "ジラーチ", type: "はがね", attack: 111, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5215", season: "2-1", name: "ゲンガー<br><span style=\"font-size:10px;color:#9ca3af\">Gengar</span>", searchName: "ゲンガー", type: "ゴースト", attack: 150, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5216", season: "2-1", name: "ギャラドス<br><span style=\"font-size:10px;color:#9ca3af\">Gyarados</span>", searchName: "ギャラドス", type: "あく", attack: 142, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5217", season: "2-1", name: "ルカリオ<br><span style=\"font-size:10px;color:#9ca3af\">Lucario</span>", searchName: "ルカリオ", type: "かくとう", attack: 126, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5218", season: "2-1", name: "サーナイト<br><span style=\"font-size:10px;color:#9ca3af\">Gardevoir</span>", searchName: "サーナイト", type: "フェアリー", attack: 142, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5219", season: "2-1", name: "カミツオロチ<br><span style=\"font-size:10px;color:#9ca3af\">Hydrapple</span>", searchName: "カミツオロチ", type: "ドラゴン", attack: 137, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5220", season: "1-5", name: "ゼルネアス<br><span style=\"font-size:10px;color:#9ca3af\">Xerneas</span>", searchName: "ゼルネアス", type: "フェアリー", attack: 130, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5221", season: "1-5", name: "イベルタル<br><span style=\"font-size:10px;color:#9ca3af\">Yveltal</span>", searchName: "イベルタル", type: "あく", attack: 130, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5222", season: "1-5", name: "テラパゴス<br><span style=\"font-size:10px;color:#9ca3af\">Terapagos</span>", searchName: "テラパゴス", type: "ノーマル", attack: 110, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5223", season: "1-5", name: "タケルライコ<br><span style=\"font-size:10px;color:#9ca3af\">Raging Bolt</span>", searchName: "タケルライコ", type: "でんき", attack: 142, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5224", season: "1-5", name: "ウネルミナモ<br><span style=\"font-size:10px;color:#9ca3af\">Walking Wake</span>", searchName: "ウネルミナモ", type: "みず", attack: 130, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5225", season: "1-5", name: "ウガツホムラ<br><span style=\"font-size:10px;color:#9ca3af\">Gouging Fire</span>", searchName: "ウガツホムラ", type: "ほのお", attack: 120, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5226", season: "1-5", name: "ボーマンダ<br><span style=\"font-size:10px;color:#9ca3af\">Salamence</span>", searchName: "ボーマンダ", type: "ドラゴン", attack: 140, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5227", season: "1-5", name: "ジャラランガ<br><span style=\"font-size:10px;color:#9ca3af\">Kommo-o</span>", searchName: "ジャラランガ", type: "かくとう", attack: 105, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5228", season: "1-5", name: "イッカネズミ<br><span style=\"font-size:10px;color:#9ca3af\">Maushold</span>", searchName: "イッカネズミ", type: "ノーマル", attack: 90, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5229", season: "1-5", name: "ヘイラッシャ<br><span style=\"font-size:10px;color:#9ca3af\">Dondozo</span>", searchName: "ヘイラッシャ", type: "ドラゴン", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5230", season: "1-4", name: "レシラム<br><span style=\"font-size:10px;color:#9ca3af\">Reshiram</span>", searchName: "レシラム", type: "ほのお", attack: 143, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5231", season: "1-4", name: "ゼクロム<br><span style=\"font-size:10px;color:#9ca3af\">Zekrom</span>", searchName: "ゼクロム", type: "でんき", attack: 143, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5232", season: "1-4", name: "キュレム<br><span style=\"font-size:10px;color:#9ca3af\">Kyurem</span>", searchName: "キュレム", type: "こおり", attack: 124, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5233", season: "1-4", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "みず", attack: 122, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5234", season: "1-4", name: "テツノイサハ<br><span style=\"font-size:10px;color:#9ca3af\">Iron Leaves</span>", searchName: "テツノイサハ", type: "くさ", attack: 129, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5235", season: "1-4", name: "テツノイワオ<br><span style=\"font-size:10px;color:#9ca3af\">Iron Boulder</span>", searchName: "テツノイワオ", type: "いわ", attack: 120, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5236", season: "1-4", name: "テツノカシラ<br><span style=\"font-size:10px;color:#9ca3af\">Iron Crown</span>", searchName: "テツノカシラ", type: "はがね", attack: 122, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5237", season: "1-4", name: "バンギラス<br><span style=\"font-size:10px;color:#9ca3af\">Tyranitar</span>", searchName: "バンギラス", type: "いわ", attack: 133, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5238", season: "1-4", name: "メタグロス<br><span style=\"font-size:10px;color:#9ca3af\">Metagross</span>", searchName: "メタグロス", type: "はがね", attack: 134, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5239", season: "1-4", name: "ウガツホムラ<br><span style=\"font-size:10px;color:#9ca3af\">Gouging Fire</span>", searchName: "ウガツホムラ", type: "ほのお", attack: 115, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5240", season: "1-3", name: "テラパゴス<br><span style=\"font-size:10px;color:#9ca3af\">Terapagos</span>", searchName: "テラパゴス", type: "ノーマル", attack: 103, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5241", season: "1-3", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "ほのお", attack: 117, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5242", season: "1-3", name: "デオキシス<br><span style=\"font-size:10px;color:#9ca3af\">Deoxys</span>", searchName: "デオキシス", type: "エスパー", attack: 146, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5243", season: "1-3", name: "ケルディオ<br><span style=\"font-size:10px;color:#9ca3af\">Keldeo</span>", searchName: "ケルディオ", type: "かくとう", attack: 126, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5244", season: "1-3", name: "ザルード<br><span style=\"font-size:10px;color:#9ca3af\">Zarude</span>", searchName: "ザルード", type: "くさ", attack: 117, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5245", season: "1-3", name: "ドドゲザン<br><span style=\"font-size:10px;color:#9ca3af\">Kingambit</span>", searchName: "ドドゲザン", type: "あく", attack: 131, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5246", season: "1-3", name: "リザードン<br><span style=\"font-size:10px;color:#9ca3af\">Charizard</span>", searchName: "リザードン", type: "ほのお", attack: 107, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5247", season: "1-3", name: "トドロクツキ<br><span style=\"font-size:10px;color:#9ca3af\">Roaring Moon</span>", searchName: "トドロクツキ", type: "あく", attack: 135, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5248", season: "1-3", name: "テツノブジン<br><span style=\"font-size:10px;color:#9ca3af\">Iron Valiant</span>", searchName: "テツノブジン", type: "かくとう", attack: 127, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5249", season: "1-3", name: "レックウザ<br><span style=\"font-size:10px;color:#9ca3af\">Rayquaza</span>", searchName: "レックウザ", type: "ひこう", attack: 137, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5250", season: "1-2", name: "レックウザ<br><span style=\"font-size:10px;color:#9ca3af\">Rayquaza</span>", searchName: "レックウザ", type: "ひこう", attack: 131, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5251", season: "1-2", name: "ルギア<br><span style=\"font-size:10px;color:#9ca3af\">Lugia</span>", searchName: "ルギア", type: "ひこう", attack: 80, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5252", season: "1-2", name: "ホウオウ<br><span style=\"font-size:10px;color:#9ca3af\">Ho-Oh</span>", searchName: "ホウオウ", type: "ほのお", attack: 114, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5253", season: "1-2", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "くさ", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5254", season: "1-2", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "いわ", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5255", season: "1-2", name: "メルメタル<br><span style=\"font-size:10px;color:#9ca3af\">Melmetal</span>", searchName: "メルメタル", type: "はがね", attack: 130, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5256", season: "1-2", name: "デカヌチャン<br><span style=\"font-size:10px;color:#9ca3af\">Tinkaton</span>", searchName: "デカヌチャン", type: "はがね", attack: 72, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5257", season: "1-2", name: "ブリガロン<br><span style=\"font-size:10px;color:#9ca3af\">Chesnaught</span>", searchName: "ブリガロン", type: "かくとう", attack: 101, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5258", season: "1-2", name: "マフォクシー<br><span style=\"font-size:10px;color:#9ca3af\">Delphox</span>", searchName: "マフォクシー", type: "ほのお", attack: 107, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5259", season: "1-2", name: "ゲッコウガ<br><span style=\"font-size:10px;color:#9ca3af\">Greninja</span>", searchName: "ゲッコウガ", type: "みず", attack: 97, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5260", season: "1-1", name: "コライドン<br><span style=\"font-size:10px;color:#9ca3af\">Koraidon</span>", searchName: "コライドン", type: "かくとう", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5261", season: "1-1", name: "ミライドン<br><span style=\"font-size:10px;color:#9ca3af\">Miraidon</span>", searchName: "ミライドン", type: "でんき", attack: 113, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5262", season: "1-1", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "くさ", attack: 108, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5263", season: "1-1", name: "マスカーニャ<br><span style=\"font-size:10px;color:#9ca3af\">Meowscarada</span>", searchName: "マスカーニャ", type: "くさ", attack: 99, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5264", season: "1-1", name: "ラウドボーン<br><span style=\"font-size:10px;color:#9ca3af\">Skeledirge</span>", searchName: "ラウドボーン", type: "ほのお", attack: 99, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5265", season: "1-1", name: "ウェーニバル<br><span style=\"font-size:10px;color:#9ca3af\">Quaquaval</span>", searchName: "ウェーニバル", type: "みず", attack: 108, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5266", season: "1-1", name: "ルカリオ<br><span style=\"font-size:10px;color:#9ca3af\">Lucario</span>", searchName: "ルカリオ", type: "かくとう", attack: 103, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5267", season: "1-1", name: "セレビィ<br><span style=\"font-size:10px;color:#9ca3af\">Celebi</span>", searchName: "セレビィ", type: "くさ", attack: 85, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5268", season: "1-1", name: "ウインディ<br><span style=\"font-size:10px;color:#9ca3af\">Arcanine</span>", searchName: "ウインディ", type: "ほのお", attack: 91, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5269", season: "1-1", name: "ミロカロス<br><span style=\"font-size:10px;color:#9ca3af\">Milotic</span>", searchName: "ミロカロス", type: "みず", attack: 91, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5270", season: "W", name: "エーフィ", searchName: "エーフィ", type: "ノーマル", attack: 166, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5271", season: "W", name: "ブラッキー", searchName: "ブラッキー", type: "ノーマル", attack: 79, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5272", season: "W", name: "リーフィア", searchName: "リーフィア", type: "ノーマル", attack: 141, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5273", season: "W", name: "グレイシア", searchName: "グレイシア", type: "ノーマル", attack: 166, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5274", season: "W", name: "ミュウ<br><span style=\"font-size:10px;color:#9ca3af\">Mew</span>", searchName: "ミュウ", type: "エスパー", attack: 119, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5275", season: "W", name: "ラプラス<br><span style=\"font-size:10px;color:#9ca3af\">Lapras</span>", searchName: "ラプラス", type: "こおり", attack: 107, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5276", season: "W", name: "アローラキュウコン<br><span style=\"font-size:10px;color:#9ca3af\">Alolan Ninetales</span>", searchName: "アローラキュウコン", type: "こおり", attack: 103, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5277", season: "W", name: "ピカチュウ<br><span style=\"font-size:10px;color:#9ca3af\">Pikachu</span>", searchName: "ピカチュウ", type: "でんき", attack: 85, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5278", season: "W", name: "ジュペッタ<br><span style=\"font-size:10px;color:#9ca3af\">Banette</span>", searchName: "ジュペッタ", type: "ゴースト", attack: 145, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "IMG_5279", season: "W", name: "ダークライ<br><span style=\"font-size:10px;color:#9ca3af\">Darkrai</span>", searchName: "ダークライ", type: "あく", attack: 153, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5280", season: "W", name: "フリーザー<br><span style=\"font-size:10px;color:#9ca3af\">Articuno</span>", searchName: "フリーザー", type: "こおり", attack: 107, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5281", season: "W", name: "サンダー<br><span style=\"font-size:10px;color:#9ca3af\">Zapdos</span>", searchName: "サンダー", type: "でんき", attack: 140, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5282", season: "W", name: "ファイヤー<br><span style=\"font-size:10px;color:#9ca3af\">Moltres</span>", searchName: "ファイヤー", type: "ほのお", attack: 140, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5283", season: "W", name: "メガフシギバナ<br><span style=\"font-size:10px;color:#9ca3af\">Venusaur</span>", searchName: "メガフシギバナ", type: "くさ", attack: 113, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5284", season: "W", name: "メガリザードンX<br><span style=\"font-size:10px;color:#9ca3af\">Charizard</span>", searchName: "メガリザードンX", type: "あく", attack: 95, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5285", season: "W", name: "メガリザードンY<br><span style=\"font-size:10px;color:#9ca3af\">Charizard</span>", searchName: "メガリザードンY", type: "ほのお", attack: 122, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5286", season: "W", name: "メガカメックス<br><span style=\"font-size:10px;color:#9ca3af\">Blastoise</span>", searchName: "メガカメックス", type: "みず", attack: 96, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5287", season: "W", name: "シャワーズ<br><span style=\"font-size:10px;color:#9ca3af\">Vaporeon</span>", searchName: "シャワーズ", type: "みず", attack: 112, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5288", season: "W", name: "サンダース<br><span style=\"font-size:10px;color:#9ca3af\">Jolteon</span>", searchName: "サンダース", type: "でんき", attack: 112, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5289", season: "W", name: "ブースター<br><span style=\"font-size:10px;color:#9ca3af\">Flareon</span>", searchName: "ブースター", type: "ほのお", attack: 98, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5290", season: "W", name: "ニンフィア<br><span style=\"font-size:10px;color:#9ca3af\">Sylveon</span>", searchName: "ニンフィア", type: "フェアリー", attack: 112, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5291", season: "W", name: "レックウザ<br><span style=\"font-size:10px;color:#9ca3af\">Rayquaza</span>", searchName: "レックウザ", type: "ひこう", attack: 137, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5292", season: "W", name: "レックウザ<br><span style=\"font-size:10px;color:#9ca3af\">Rayquaza</span>", searchName: "レックウザ", type: "ひこう", attack: 137, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5293", season: "W", name: "ゲンガー<br><span style=\"font-size:10px;color:#9ca3af\">Gengar</span>", searchName: "ゲンガー", type: "ゴースト", attack: 122, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5294", season: "W", name: "ミミッキュ<br><span style=\"font-size:10px;color:#9ca3af\">Mimikyu</span>", searchName: "ミミッキュ", type: "フェアリー", attack: 86, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5295", season: "W", name: "ソウブレイズ<br><span style=\"font-size:10px;color:#9ca3af\">Ceruledge</span>", searchName: "ソウブレイズ", type: "ほのお", attack: 117, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5242", season: "2-3", name: "デオキシス<br><span style=\"font-size:10px;color:#9ca3af\">Deoxys</span>", searchName: "デオキシス", type: "エスパー", attack: 146, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5243", season: "2-3", name: "ケルディオ<br><span style=\"font-size:10px;color:#9ca3af\">Keldeo</span>", searchName: "ケルディオ", type: "かくとう", attack: 126, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5249", season: "2-3", name: "レックウザ<br><span style=\"font-size:10px;color:#9ca3af\">Rayquaza</span>", searchName: "レックウザ", type: "ひこう", attack: 137, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5251", season: "2-2", name: "ルギア<br><span style=\"font-size:10px;color:#9ca3af\">Lugia</span>", searchName: "ルギア", type: "ひこう", attack: 80, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5252", season: "2-2", name: "ホウオウ<br><span style=\"font-size:10px;color:#9ca3af\">Ho-Oh</span>", searchName: "ホウオウ", type: "ほのお", attack: 114, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5259", season: "2-2", name: "ゲッコウガ<br><span style=\"font-size:10px;color:#9ca3af\">Greninja</span>", searchName: "ゲッコウガ", type: "みず", attack: 97, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5260", season: "2-1", name: "コライドン<br><span style=\"font-size:10px;color:#9ca3af\">Koraidon</span>", searchName: "コライドン", type: "かくとう", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5261", season: "2-1", name: "ミライドン<br><span style=\"font-size:10px;color:#9ca3af\">Miraidon</span>", searchName: "ミライドン", type: "でんき", attack: 113, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5233", season: "2-1", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "くさ", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
+    ];
+
+    const K_PHYS = 0.271, K_SPEC = 0.284, GIMMICK_ADD_BASE = 60;
+    const FIXED_ENEMIES = { 2: { name: "コリンク", hp: 87 }, 3: { name: "デデンネ", hp: 115 }, 4: { name: "アマルルガ", hp: 193 } };
+    const HIT_MULT = { "ヒット": 1.0, "ばつぐん": 1.3, "きゅうしょ": 1.8 };
+    const HIT_COLORS = { "ヒット": "#6b7280", "ばつぐん": "#f97316", "きゅうしょ": "#ef4444" };
+    const MEDALS = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣"];
+
+    function calcScore(p) {
+      const k = p.category === "物理" ? K_PHYS : K_SPEC;
+      const atk = p.hasGimmick ? p.attack + GIMMICK_ADD_BASE : p.attack;
+      return Math.round(atk * k * 10) / 10;
+    }
+    function seasonOrder(s) { if (s === "W") return 99999; const p = s.split("-").map(Number); return p[0] * 100 + p[1]; }
+    function seasonLabel(s) { if (s === "W") return "ワンダー"; const p = s.split("-"); return p[0] === "2" ? `BT${p[1]}弾` : `第${p[1]}弾`; }
+    function getKP(score) { if (score >= 50) return { label: "SSS", color: "#ff2255", tc: "#fff" }; if (score >= 40) return { label: "SS", color: "#FFD700", tc: "#000" }; if (score >= 30) return { label: "S", color: "#C0C0C0", tc: "#000" }; return { label: "A", color: "#4488ff", tc: "#fff" }; }
+    function randAdd() { return 50 + Math.floor(Math.random() * 21); }
+    function randHits() { const a = ["ヒット", "ばつぐん", "きゅうしょ"]; let h = Array.from({ length: 3 }, () => a[Math.floor(Math.random() * 3)]); if (h.every(x => x === "ヒット")) h[Math.floor(Math.random() * 3)] = Math.random() < .5 ? "ばつぐん" : "きゅうしょ"; return h; }
+
+    // ランキング構築
+    const scored = DATA.map(p => ({ ...p, score: calcScore(p) }));
+    const byName = new Map();
+    scored.forEach(p => { const e = byName.get(p.searchName); if (!e || seasonOrder(p.season) > seasonOrder(e.season)) byName.set(p.searchName, p); });
+    const deduped = Array.from(byName.values());
+    const RANKINGS = {};
+    Object.keys(TYPE_CONFIG).forEach(type => {
+      const filtered = deduped.filter(p => p.type === type).sort((a, b) => b.score - a.score || seasonOrder(b.season) - seasonOrder(a.season));
+      RANKINGS[type] = filtered.slice(0, 5);
+    });
+
+    // ─── ストレージ ───
+    const LS = { get: k => { try { return JSON.parse(localStorage.getItem(k)) } catch { return null } }, set: (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)) } catch { } } };
+
+    // ─── 状態 ───
+    let SEL = "ノーマル";
+    const VOTES = {};
+    const BBS_CACHE = {};
+
+    // ─── 描画 ───
+    function render() {
+      document.querySelector("header div:last-child")?.remove();
+      const hPill = Object.assign(document.createElement("div"), {
+        style: "display:inline-block;margin-top:6px;font-size:11px;font-weight:700;color:#fff;background:" + TYPE_CONFIG[SEL].color + ";padding:3px 14px;border-radius:99px",
+        textContent: TYPE_CONFIG[SEL].emoji + " " + SEL + "タイプ"
+      });
+      document.querySelector("header").appendChild(hPill);
+
+      renderTypeGrid();
+      renderHero();
+      renderCards();
+      renderBBS();
+    }
+
+    function renderTypeGrid() {
+      const wrap = document.getElementById("type-grid-container");
+      wrap.innerHTML = "";
+      const div = document.createElement("div"); div.className = "type-grid-wrap";
+      div.innerHTML = '<div class="type-grid-label">▶ タイプを選ぶ</div>';
+      const grid = document.createElement("div"); grid.className = "type-grid";
+      Object.keys(TYPE_CONFIG).forEach(t => {
+        const c = TYPE_CONFIG[t], top = RANKINGS[t][0], hasData = !!top;
+        const btn = document.createElement("button");
+        btn.className = "type-btn" + (t === SEL ? " active" : "");
+        btn.disabled = !hasData;
+        btn.innerHTML = `<span class="t-emoji">${c.emoji}</span><span class="t-name">${t}</span><span class="t-score" style="color:${t === SEL ? "#ffffffbb" : c.color}">${top ? top.score + "pt" : "—"}</span>`;
+        btn.onclick = () => { SEL = t; render(); };
+        grid.appendChild(btn);
+      });
+      div.appendChild(grid); wrap.appendChild(div);
+    }
+
+    function renderHero() {
+      const wrap = document.getElementById("type-hero-container");
+      const ranked = RANKINGS[SEL], cfg = TYPE_CONFIG[SEL];
+      wrap.innerHTML = `
+    <div class="type-hero">
+      <span class="emoji">${cfg.emoji}</span>
+      <div><h2>${SEL}タイプ</h2><div class="sub">TOP ${ranked.length} ランキング</div></div>
+      ${ranked[0] ? `<div class="score"><div class="score-label">最高スコア</div><div class="score-val" style="color:${cfg.color}">${ranked[0].score}pt</div></div>` : ""}
+    </div>`;
+    }
+
+    function renderCards() {
+      const wrap = document.getElementById("cards-container");
+      wrap.innerHTML = '<div class="cards" id="card-list"></div>';
+      const list = document.getElementById("card-list");
+      const ranked = RANKINGS[SEL];
+      if (!ranked.length) { list.innerHTML = '<div style="text-align:center;color:#9ca3af;padding:48px 0">このタイプのデータはありません</div>'; return; }
+      ranked.forEach((p, i) => list.appendChild(makeCard(p, i)));
+    }
+
+    function makeCard(p, rank) {
+      const score = p.score, kp = getKP(score), cfg = TYPE_CONFIG[p.type];
+      const card = document.createElement("article");
+      card.className = "card" + (rank === 0 ? " rank1" : "");
+      card.style.borderLeftColor = rank === 0 ? "#1a1a2e" : cfg.color;
+      card.setAttribute("itemscope", ""); card.setAttribute("itemtype", "https://schema.org/Product");
+      const gAdd = p.hasGimmick ? randAdd() : 0;
+      const hits = randHits();
+      let revealed = false;
+
+      // 投票読み込み
+      const vkey = "vote:" + p.id;
+      if (!VOTES[p.id]) { const v = LS.get(vkey); VOTES[p.id] = v || { votes: { good: 0, bad: 0 }, myVote: null }; }
+      const vd = VOTES[p.id];
+
+      card.innerHTML = `
+    <div class="card-top" style="align-items: center;">
+      <span class="medal${rank === 0 ? " first" : ""}" style="font-size: ${rank === 0 ? 28 : 22}px;">${MEDALS[rank]}</span>
+      <div style="flex: 1; display:flex; flex-direction:column; align-items:center; gap:8px;">
+        <div style="width: 100%; max-width: 240px; aspect-ratio: 1.5/1; border-radius: 8px; overflow: hidden; border: 2px solid ${cfg.color}88; background: #000; box-shadow: 0 4px 12px ${cfg.color}44;">
+          <img src="/images/${p.id}.png?v=3" alt="${p.name}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='https://placehold.co/240x160?text=No+Img'">
+        </div>
+      </div>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:4px; margin-top:8px;">
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:5px;">
+          <span class="poke-name${rank === 0 ? " first" : ""}" itemprop="name">${p.name}</span>
+          <span class="badge" style="background:${kp.color};color:${kp.tc}">${kp.label}</span>
+          ${p.gimmick ? `<span class="badge" style="background:#4422ee">${{ Zワザ: "Ｚ", メガシンカ: "Ω", テラスタル: "テラ", ワンダー: "✦W", 専用技: "専用" }[p.gimmick] || p.gimmick}</span>` : ""}
+        </div>
+        <div class="meta">
+          <span>${p.category === "物理" ? "攻撃" : "特攻"}<b style="font-size:13px;color:#1a1a2e;margin-left:3px">${p.attack}</b>${p.hasGimmick ? `<span style="color:#9ca3af;font-size:10px"> +${GIMMICK_ADD_BASE}</span>` : ""}</span>
+          <span style="font-size:10px;color:#9ca3af">${seasonLabel(p.season)}</span>
+          <span class="score-main">${score}<span style="font-size:10px;color:#9ca3af;font-weight:normal">pt</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="vote-row" id="vote-${p.id}"></div>
+    <div class="sim-hint" id="hint-${p.id}" style="text-align:center;font-size:11px;color:#9ca3af;margin-bottom:6px">
+      👆 タップして攻撃シミュレーション　<span style="font-size:10px">ばつぐん・きゅうしょは属性に関係なくランダム</span>
+    </div>
+    <div id="bars-${p.id}">
+      ${[2, 3, 4].map(star => `<div class="hp-row" id="bar-${p.id}-${star}">
+        <div class="hp-row-top">
+          <span class="star-badge">${"★".repeat(star)}</span>
+          <span style="font-size:12px;font-weight:700;color:#1a1a2e;flex:1">${FIXED_ENEMIES[star].name}</span>
+          <span class="hit-badge" id="hit-${p.id}-${star}" style="display:none"></span>
+        </div>
+        <div class="hp-bar-wrap">
+          <div class="hp-bar-bg"><div class="hp-bar-fill" id="fill-${p.id}-${star}" style="width:100%;background:#22c55e"></div></div>
+          <span class="hp-pct" id="pct-${p.id}-${star}" style="color:#d1d5db">—</span>
+          <span class="hp-dmg" id="dmg-${p.id}-${star}" style="display:none"></span>
+        </div>
+      </div>`).join("")}
+    </div>`;
+
+      // 投票ボタン描画
+      const vRow = card.querySelector(`#vote-${p.id}`);
+      const renderVote = () => {
+        vRow.innerHTML = [{ t: "good", e: "👍" }, { t: "bad", e: "👎" }].map(v => `
+      <button class="vote-btn${vd.myVote === v.t ? " voted" : ""}" data-type="${v.t}">
+        ${v.e} ${vd.votes[v.t] || 0}
+      </button>`).join("");
+        vRow.querySelectorAll(".vote-btn").forEach(btn => {
+          btn.onclick = e => {
+            e.stopPropagation(); const t = btn.dataset.type;
+            if (vd.myVote === t) return;
+            if (vd.myVote) vd.votes[vd.myVote] = Math.max(0, (vd.votes[vd.myVote] || 1) - 1);
+            vd.votes[t] = (vd.votes[t] || 0) + 1; vd.myVote = t;
+            LS.set(vkey, vd); renderVote();
+          };
+        });
+      };
+      renderVote();
+
+      // タップでシミュレーション
+      card.onclick = () => {
+        const curGAdd = p.hasGimmick ? randAdd() : 0;
+        const curHits = randHits();
+        revealed = true;
+        const hint = card.querySelector(`#hint-${p.id}`);
+        hint.innerHTML = '👆 タップして攻撃シミュレーション　<span style="font-size:10px">ばつぐん・きゅうしょは属性に関係なくランダム</span>';
+        [2, 3, 4].forEach((star, idx) => {
+          const delay = idx * 200;
+          const k = p.category === "物理" ? K_PHYS : K_SPEC;
+          const atkEff = p.hasGimmick ? p.attack + curGAdd : p.attack;
+          const mult = HIT_MULT[curHits[idx]] || 1.0;
+          const posMod = star === 2 ? 1.35 : 1.0; // ★2はメインバトル位置補正
+          const enemyHp = FIXED_ENEMIES[star].hp;
+          const rawDmg = atkEff * k * mult * posMod;
+          const dmg = Math.min(100, Math.round(rawDmg / enemyHp * 100));
+          const remain = Math.max(0, 100 - dmg);
+          const hc = HIT_COLORS[curHits[idx]];
+
+          // ヒットバッジ
+          const hb = card.querySelector(`#hit-${p.id}-${star}`);
+          hb.style.display = ""; hb.textContent = curHits[idx] === "ヒット" ? "ヒット" : curHits[idx] + "！";
+          hb.style.color = hc; hb.style.borderColor = hc + "99";
+
+          setTimeout(() => {
+            const fill = card.querySelector(`#fill-${p.id}-${star}`);
+            const pct = card.querySelector(`#pct-${p.id}-${star}`);
+            const dmgEl = card.querySelector(`#dmg-${p.id}-${star}`);
+            dmgEl.style.display = ""; dmgEl.textContent = `-${dmg}%`;
+            pct.style.color = "#1a1a2e";
+            let cur = 100; const t0 = Date.now(), dur = 850;
+            const tick = () => {
+              const prog = Math.min((Date.now() - t0) / dur, 1);
+              const ease = 1 - Math.pow(1 - prog, 3);
+              cur = Math.round(100 - (100 - remain) * ease);
+              fill.style.width = cur + "%";
+              fill.style.background = cur > 50 ? "#22c55e" : cur > 25 ? "#f97316" : "#ef4444";
+              pct.textContent = cur + "%";
+              pct.style.color = cur > 50 ? "#22c55e" : cur > 25 ? "#f97316" : "#ef4444";
+              if (prog < 1) requestAnimationFrame(tick);
+            };
+            requestAnimationFrame(tick);
+          }, delay);
+        });
+      };
+
+      return card;
+    }
+
+    function renderBBS() {
+      const wrap = document.getElementById("bbs-container");
+      const key = "bbs:" + SEL;
+      if (!BBS_CACHE[SEL]) BBS_CACHE[SEL] = LS.get(key) || [];
+      const posts = BBS_CACHE[SEL];
+
+      wrap.innerHTML = `
+    <div class="bbs">
+      <h3>💬 掲示板 <span style="font-size:10px;color:#9ca3af;font-weight:500">${SEL}タイプ</span></h3>
+      <div class="bbs-form">
+        <input id="bbs-name" placeholder="ニックネーム（任意）" maxlength="20">
+        <textarea id="bbs-text" placeholder="コメントを書く…（150文字まで）" maxlength="150" rows="2"></textarea>
+        <div class="form-footer">
+          <span class="char-count" id="bbs-count">0/150</span>
+          <button class="submit-btn" id="bbs-submit" disabled>投稿</button>
+        </div>
+      </div>
+      <div id="bbs-posts">${posts.length ? posts.map(post => `
+        <div class="post">
+          <div class="post-header"><span class="post-name">🧢 ${post.name}</span><span class="post-time">${post.time}</span></div>
+          <p class="post-text">${post.text}</p>
+        </div>`).join("") : '<div style="text-align:center;color:#d1d5db;font-size:12px;padding:12px 0">まだコメントがありません</div>'}</div>
+    </div>`;
+
+      const ta = wrap.querySelector("#bbs-text"), btn = wrap.querySelector("#bbs-submit");
+      ta.oninput = () => { wrap.querySelector("#bbs-count").textContent = ta.value.length + "/150"; btn.disabled = !ta.value.trim(); };
+      btn.onclick = () => {
+        if (!ta.value.trim()) return;
+        const nm = wrap.querySelector("#bbs-name").value.trim() || "トレーナー";
+        const post = { id: Date.now(), name: nm, text: ta.value.trim(), time: new Date().toLocaleString("ja-JP", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" }) };
+        BBS_CACHE[SEL] = [post, ...BBS_CACHE[SEL]].slice(0, 50);
+        LS.set(key, BBS_CACHE[SEL]);
+        ta.value = ""; btn.disabled = true;
+        renderBBS();
+      };
+    }
+
+    render();
+  </script>
+</body>
+
+</html>
