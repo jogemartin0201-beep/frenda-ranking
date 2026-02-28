@@ -630,6 +630,7 @@
 
     <!-- ─── アプリ本体（JS で描画） ─── -->
     <div id="type-grid-container"></div>
+    <div id="gimmick-filter-container"></div>
     <div id="type-hero-container"></div>
     <div id="cards-container"></div>
     <div id="bbs-container"></div>
@@ -758,8 +759,8 @@
       { id: "IMG_5194", season: "2-3", name: "メタグロス<br><span style=\"font-size:10px;color:#9ca3af\">Metagross</span>", searchName: "メタグロス", type: "はがね", attack: 158, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
       { id: "IMG_5195", season: "2-3", name: "ガブリアス<br><span style=\"font-size:10px;color:#9ca3af\">Garchomp</span>", searchName: "ガブリアス", type: "じめん", attack: 153, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
       { id: "IMG_5196", season: "2-3", name: "エルレイド<br><span style=\"font-size:10px;color:#9ca3af\">Gallade</span>", searchName: "エルレイド", type: "かくとう", attack: 155, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
-      { id: "IMG_5197", season: "2-3", name: "マホイップ<br><span style=\"font-size:10px;color:#9ca3af\">Alcremie</span>", searchName: "マホイップ", type: "フェアリー", attack: 141, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5198", season: "2-3", name: "ブリジュラス<br><span style=\"font-size:10px;color:#9ca3af\">Archaludon</span>", searchName: "ブリジュラス", type: "でんき", attack: 147, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5197", season: "2-3", name: "マホイップ<br><span style=\"font-size:10px;color:#9ca3af\">Alcremie</span>", searchName: "マホイップ", type: "フェアリー", attack: 141, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
+      { id: "IMG_5198", season: "2-3", name: "ブリジュラス<br><span style=\"font-size:10px;color:#9ca3af\">Archaludon</span>", searchName: "ブリジュラス", type: "でんき", attack: 147, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
       { id: "IMG_5199", season: "2-3", name: "イルカマン<br><span style=\"font-size:10px;color:#9ca3af\">Palafin</span>", searchName: "イルカマン", type: "みず", attack: 83, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5200", season: "2-2", name: "カイオーガ<br><span style=\"font-size:10px;color:#9ca3af\">Kyogre</span>", searchName: "カイオーガ", type: "みず", attack: 164, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5201", season: "2-2", name: "グラードン<br><span style=\"font-size:10px;color:#9ca3af\">Groudon</span>", searchName: "グラードン", type: "じめん", attack: 164, hasGimmick: false, gimmick: "", category: "物理" },
@@ -767,25 +768,25 @@
       { id: "IMG_5203", season: "2-2", name: "ハッサム<br><span style=\"font-size:10px;color:#9ca3af\">Scizor</span>", searchName: "ハッサム", type: "むし", attack: 155, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
       { id: "IMG_5204", season: "2-2", name: "サーナイト<br><span style=\"font-size:10px;color:#9ca3af\">Gardevoir</span>", searchName: "サーナイト", type: "エスパー", attack: 150, hasGimmick: true, gimmick: "メガシンカ", category: "特殊" },
       { id: "IMG_5205", season: "2-2", name: "ボーマンダ<br><span style=\"font-size:10px;color:#9ca3af\">Salamence</span>", searchName: "ボーマンダ", type: "ドラゴン", attack: 153, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
-      { id: "IMG_5206", season: "2-2", name: "ガチグマ<br><span style=\"font-size:10px;color:#9ca3af\">Ursaluna</span>", searchName: "ガチグマ", type: "ノーマル", attack: 158, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5207", season: "2-2", name: "グレンアルマ<br><span style=\"font-size:10px;color:#9ca3af\">Armarouge</span>", searchName: "グレンアルマ", type: "ほのお", attack: 150, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5206", season: "2-2", name: "ガチグマ<br><span style=\"font-size:10px;color:#9ca3af\">Ursaluna</span>", searchName: "ガチグマ", type: "ノーマル", attack: 158, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
+      { id: "IMG_5207", season: "2-2", name: "グレンアルマ<br><span style=\"font-size:10px;color:#9ca3af\">Armarouge</span>", searchName: "グレンアルマ", type: "ほのお", attack: 150, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
       { id: "IMG_5208", season: "2-2", name: "シェイミ<br><span style=\"font-size:10px;color:#9ca3af\">Shaymin</span>", searchName: "シェイミ", type: "くさ", attack: 115, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5209", season: "2-2", name: "カプ・コケコ<br><span style=\"font-size:10px;color:#9ca3af\">Tapu Koko</span>", searchName: "カプ・コケコ", type: "フェアリー", attack: 111, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5209", season: "2-2", name: "カプ・コケコ<br><span style=\"font-size:10px;color:#9ca3af\">Tapu Koko</span>", searchName: "カプ・コケコ", type: "フェアリー", attack: 111, hasGimmick: true, gimmick: "Zワザ", category: "特殊" },
       { id: "IMG_5210", season: "2-1", name: "ミュウツー<br><span style=\"font-size:10px;color:#9ca3af\">Mewtwo</span>", searchName: "ミュウツー", type: "エスパー", attack: 162, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5211", season: "2-1", name: "ソルガレオ<br><span style=\"font-size:10px;color:#9ca3af\">Solgaleo</span>", searchName: "ソルガレオ", type: "はがね", attack: 144, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5212", season: "2-1", name: "ルナアーラ<br><span style=\"font-size:10px;color:#9ca3af\">Lunala</span>", searchName: "ルナアーラ", type: "ゴースト", attack: 144, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5213", season: "2-1", name: "モモワロウ<br><span style=\"font-size:10px;color:#9ca3af\">Pecharunt</span>", searchName: "モモワロウ", type: "どく", attack: 98, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5214", season: "2-1", name: "ジラーチ<br><span style=\"font-size:10px;color:#9ca3af\">Jirachi</span>", searchName: "ジラーチ", type: "はがね", attack: 111, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5215", season: "2-1", name: "ゲンガー<br><span style=\"font-size:10px;color:#9ca3af\">Gengar</span>", searchName: "ゲンガー", type: "ゴースト", attack: 150, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5216", season: "2-1", name: "ギャラドス<br><span style=\"font-size:10px;color:#9ca3af\">Gyarados</span>", searchName: "ギャラドス", type: "あく", attack: 142, hasGimmick: false, gimmick: "", category: "物理" },
-      { id: "IMG_5217", season: "2-1", name: "ルカリオ<br><span style=\"font-size:10px;color:#9ca3af\">Lucario</span>", searchName: "ルカリオ", type: "かくとう", attack: 126, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5216", season: "2-1", name: "ギャラドス<br><span style=\"font-size:10px;color:#9ca3af\">Gyarados</span>", searchName: "ギャラドス", type: "あく", attack: 142, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
+      { id: "IMG_5217", season: "2-1", name: "ルカリオ<br><span style=\"font-size:10px;color:#9ca3af\">Lucario</span>", searchName: "ルカリオ", type: "かくとう", attack: 126, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
       { id: "IMG_5218", season: "2-1", name: "サーナイト<br><span style=\"font-size:10px;color:#9ca3af\">Gardevoir</span>", searchName: "サーナイト", type: "フェアリー", attack: 142, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5219", season: "2-1", name: "カミツオロチ<br><span style=\"font-size:10px;color:#9ca3af\">Hydrapple</span>", searchName: "カミツオロチ", type: "ドラゴン", attack: 137, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5219", season: "2-1", name: "カミツオロチ<br><span style=\"font-size:10px;color:#9ca3af\">Hydrapple</span>", searchName: "カミツオロチ", type: "ドラゴン", attack: 137, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
       { id: "IMG_5220", season: "1-5", name: "ゼルネアス<br><span style=\"font-size:10px;color:#9ca3af\">Xerneas</span>", searchName: "ゼルネアス", type: "フェアリー", attack: 130, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5221", season: "1-5", name: "イベルタル<br><span style=\"font-size:10px;color:#9ca3af\">Yveltal</span>", searchName: "イベルタル", type: "あく", attack: 130, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5222", season: "1-5", name: "テラパゴス<br><span style=\"font-size:10px;color:#9ca3af\">Terapagos</span>", searchName: "テラパゴス", type: "ノーマル", attack: 110, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5223", season: "1-5", name: "タケルライコ<br><span style=\"font-size:10px;color:#9ca3af\">Raging Bolt</span>", searchName: "タケルライコ", type: "でんき", attack: 142, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5224", season: "1-5", name: "ウネルミナモ<br><span style=\"font-size:10px;color:#9ca3af\">Walking Wake</span>", searchName: "ウネルミナモ", type: "みず", attack: 130, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5222", season: "1-5", name: "テラパゴス<br><span style=\"font-size:10px;color:#9ca3af\">Terapagos</span>", searchName: "テラパゴス", type: "ノーマル", attack: 110, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
+      { id: "IMG_5223", season: "1-5", name: "タケルライコ<br><span style=\"font-size:10px;color:#9ca3af\">Raging Bolt</span>", searchName: "タケルライコ", type: "でんき", attack: 142, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
+      { id: "IMG_5224", season: "1-5", name: "ウネルミナモ<br><span style=\"font-size:10px;color:#9ca3af\">Walking Wake</span>", searchName: "ウネルミナモ", type: "みず", attack: 130, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
       { id: "IMG_5225", season: "1-5", name: "ウガツホムラ<br><span style=\"font-size:10px;color:#9ca3af\">Gouging Fire</span>", searchName: "ウガツホムラ", type: "ほのお", attack: 120, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5226", season: "1-5", name: "ボーマンダ<br><span style=\"font-size:10px;color:#9ca3af\">Salamence</span>", searchName: "ボーマンダ", type: "ドラゴン", attack: 140, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5227", season: "1-5", name: "ジャラランガ<br><span style=\"font-size:10px;color:#9ca3af\">Kommo-o</span>", searchName: "ジャラランガ", type: "かくとう", attack: 105, hasGimmick: false, gimmick: "", category: "特殊" },
@@ -794,28 +795,28 @@
       { id: "IMG_5230", season: "1-4", name: "レシラム<br><span style=\"font-size:10px;color:#9ca3af\">Reshiram</span>", searchName: "レシラム", type: "ほのお", attack: 143, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5231", season: "1-4", name: "ゼクロム<br><span style=\"font-size:10px;color:#9ca3af\">Zekrom</span>", searchName: "ゼクロム", type: "でんき", attack: 143, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5232", season: "1-4", name: "キュレム<br><span style=\"font-size:10px;color:#9ca3af\">Kyurem</span>", searchName: "キュレム", type: "こおり", attack: 124, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5233", season: "1-4", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "みず", attack: 122, hasGimmick: false, gimmick: "", category: "物理" },
-      { id: "IMG_5234", season: "1-4", name: "テツノイサハ<br><span style=\"font-size:10px;color:#9ca3af\">Iron Leaves</span>", searchName: "テツノイサハ", type: "くさ", attack: 129, hasGimmick: false, gimmick: "", category: "物理" },
-      { id: "IMG_5235", season: "1-4", name: "テツノイワオ<br><span style=\"font-size:10px;color:#9ca3af\">Iron Boulder</span>", searchName: "テツノイワオ", type: "いわ", attack: 120, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5233", season: "1-4", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "みず", attack: 122, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
+      { id: "IMG_5234", season: "1-4", name: "テツノイサハ<br><span style=\"font-size:10px;color:#9ca3af\">Iron Leaves</span>", searchName: "テツノイサハ", type: "くさ", attack: 129, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
+      { id: "IMG_5235", season: "1-4", name: "テツノイワオ<br><span style=\"font-size:10px;color:#9ca3af\">Iron Boulder</span>", searchName: "テツノイワオ", type: "いわ", attack: 120, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
       { id: "IMG_5236", season: "1-4", name: "テツノカシラ<br><span style=\"font-size:10px;color:#9ca3af\">Iron Crown</span>", searchName: "テツノカシラ", type: "はがね", attack: 122, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5237", season: "1-4", name: "バンギラス<br><span style=\"font-size:10px;color:#9ca3af\">Tyranitar</span>", searchName: "バンギラス", type: "いわ", attack: 133, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5238", season: "1-4", name: "メタグロス<br><span style=\"font-size:10px;color:#9ca3af\">Metagross</span>", searchName: "メタグロス", type: "はがね", attack: 134, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5239", season: "1-4", name: "ウガツホムラ<br><span style=\"font-size:10px;color:#9ca3af\">Gouging Fire</span>", searchName: "ウガツホムラ", type: "ほのお", attack: 115, hasGimmick: false, gimmick: "", category: "物理" },
-      { id: "IMG_5240", season: "1-3", name: "テラパゴス<br><span style=\"font-size:10px;color:#9ca3af\">Terapagos</span>", searchName: "テラパゴス", type: "ノーマル", attack: 103, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5241", season: "1-3", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "ほのお", attack: 117, hasGimmick: false, gimmick: "", category: "物理" },
-      { id: "IMG_5242", season: "1-3", name: "デオキシス<br><span style=\"font-size:10px;color:#9ca3af\">Deoxys</span>", searchName: "デオキシス", type: "エスパー", attack: 146, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5243", season: "1-3", name: "ケルディオ<br><span style=\"font-size:10px;color:#9ca3af\">Keldeo</span>", searchName: "ケルディオ", type: "かくとう", attack: 126, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5240", season: "1-3", name: "テラパゴス<br><span style=\"font-size:10px;color:#9ca3af\">Terapagos</span>", searchName: "テラパゴス", type: "ノーマル", attack: 103, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
+      { id: "IMG_5241", season: "1-3", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "ほのお", attack: 117, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
+      { id: "IMG_5242", season: "1-3", name: "デオキシス<br><span style=\"font-size:10px;color:#9ca3af\">Deoxys</span>", searchName: "デオキシス", type: "エスパー", attack: 146, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
+      { id: "IMG_5243", season: "1-3", name: "ケルディオ<br><span style=\"font-size:10px;color:#9ca3af\">Keldeo</span>", searchName: "ケルディオ", type: "かくとう", attack: 126, hasGimmick: true, gimmick: "Zワザ", category: "特殊" },
       { id: "IMG_5244", season: "1-3", name: "ザルード<br><span style=\"font-size:10px;color:#9ca3af\">Zarude</span>", searchName: "ザルード", type: "くさ", attack: 117, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5245", season: "1-3", name: "ドドゲザン<br><span style=\"font-size:10px;color:#9ca3af\">Kingambit</span>", searchName: "ドドゲザン", type: "あく", attack: 131, hasGimmick: false, gimmick: "", category: "物理" },
-      { id: "IMG_5246", season: "1-3", name: "リザードン<br><span style=\"font-size:10px;color:#9ca3af\">Charizard</span>", searchName: "リザードン", type: "ほのお", attack: 107, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5247", season: "1-3", name: "トドロクツキ<br><span style=\"font-size:10px;color:#9ca3af\">Roaring Moon</span>", searchName: "トドロクツキ", type: "あく", attack: 135, hasGimmick: false, gimmick: "", category: "物理" },
-      { id: "IMG_5248", season: "1-3", name: "テツノブジン<br><span style=\"font-size:10px;color:#9ca3af\">Iron Valiant</span>", searchName: "テツノブジン", type: "かくとう", attack: 127, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5246", season: "1-3", name: "リザードン<br><span style=\"font-size:10px;color:#9ca3af\">Charizard</span>", searchName: "リザードン", type: "ほのお", attack: 107, hasGimmick: true, gimmick: "メガシンカ", category: "特殊" },
+      { id: "IMG_5247", season: "1-3", name: "トドロクツキ<br><span style=\"font-size:10px;color:#9ca3af\">Roaring Moon</span>", searchName: "トドロクツキ", type: "あく", attack: 135, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
+      { id: "IMG_5248", season: "1-3", name: "テツノブジン<br><span style=\"font-size:10px;color:#9ca3af\">Iron Valiant</span>", searchName: "テツノブジン", type: "かくとう", attack: 127, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
       { id: "IMG_5249", season: "1-3", name: "レックウザ<br><span style=\"font-size:10px;color:#9ca3af\">Rayquaza</span>", searchName: "レックウザ", type: "ひこう", attack: 137, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5250", season: "1-2", name: "レックウザ<br><span style=\"font-size:10px;color:#9ca3af\">Rayquaza</span>", searchName: "レックウザ", type: "ひこう", attack: 131, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5251", season: "1-2", name: "ルギア<br><span style=\"font-size:10px;color:#9ca3af\">Lugia</span>", searchName: "ルギア", type: "ひこう", attack: 80, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5252", season: "1-2", name: "ホウオウ<br><span style=\"font-size:10px;color:#9ca3af\">Ho-Oh</span>", searchName: "ホウオウ", type: "ほのお", attack: 114, hasGimmick: false, gimmick: "", category: "物理" },
-      { id: "IMG_5253", season: "1-2", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "くさ", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
-      { id: "IMG_5254", season: "1-2", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "いわ", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5253", season: "1-2", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "くさ", attack: 113, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
+      { id: "IMG_5254", season: "1-2", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "いわ", attack: 113, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
       { id: "IMG_5255", season: "1-2", name: "メルメタル<br><span style=\"font-size:10px;color:#9ca3af\">Melmetal</span>", searchName: "メルメタル", type: "はがね", attack: 130, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5256", season: "1-2", name: "デカヌチャン<br><span style=\"font-size:10px;color:#9ca3af\">Tinkaton</span>", searchName: "デカヌチャン", type: "はがね", attack: 72, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5257", season: "1-2", name: "ブリガロン<br><span style=\"font-size:10px;color:#9ca3af\">Chesnaught</span>", searchName: "ブリガロン", type: "かくとう", attack: 101, hasGimmick: false, gimmick: "", category: "物理" },
@@ -823,11 +824,11 @@
       { id: "IMG_5259", season: "1-2", name: "ゲッコウガ<br><span style=\"font-size:10px;color:#9ca3af\">Greninja</span>", searchName: "ゲッコウガ", type: "みず", attack: 97, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5260", season: "1-1", name: "コライドン<br><span style=\"font-size:10px;color:#9ca3af\">Koraidon</span>", searchName: "コライドン", type: "かくとう", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5261", season: "1-1", name: "ミライドン<br><span style=\"font-size:10px;color:#9ca3af\">Miraidon</span>", searchName: "ミライドン", type: "でんき", attack: 113, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5262", season: "1-1", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "くさ", attack: 108, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5262", season: "1-1", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "くさ", attack: 108, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
       { id: "IMG_5263", season: "1-1", name: "マスカーニャ<br><span style=\"font-size:10px;color:#9ca3af\">Meowscarada</span>", searchName: "マスカーニャ", type: "くさ", attack: 99, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5264", season: "1-1", name: "ラウドボーン<br><span style=\"font-size:10px;color:#9ca3af\">Skeledirge</span>", searchName: "ラウドボーン", type: "ほのお", attack: 99, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5265", season: "1-1", name: "ウェーニバル<br><span style=\"font-size:10px;color:#9ca3af\">Quaquaval</span>", searchName: "ウェーニバル", type: "みず", attack: 108, hasGimmick: false, gimmick: "", category: "物理" },
-      { id: "IMG_5266", season: "1-1", name: "ルカリオ<br><span style=\"font-size:10px;color:#9ca3af\">Lucario</span>", searchName: "ルカリオ", type: "かくとう", attack: 103, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5265", season: "1-1", name: "ウェーニバル<br><span style=\"font-size:10px;color:#9ca3af\">Quaquaval</span>", searchName: "ウェーニバル", type: "みず", attack: 108, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
+      { id: "IMG_5266", season: "1-1", name: "ルカリオ<br><span style=\"font-size:10px;color:#9ca3af\">Lucario</span>", searchName: "ルカリオ", type: "かくとう", attack: 103, hasGimmick: true, gimmick: "メガシンカ", category: "特殊" },
       { id: "IMG_5267", season: "1-1", name: "セレビィ<br><span style=\"font-size:10px;color:#9ca3af\">Celebi</span>", searchName: "セレビィ", type: "くさ", attack: 85, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5268", season: "1-1", name: "ウインディ<br><span style=\"font-size:10px;color:#9ca3af\">Arcanine</span>", searchName: "ウインディ", type: "ほのお", attack: 91, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5269", season: "1-1", name: "ミロカロス<br><span style=\"font-size:10px;color:#9ca3af\">Milotic</span>", searchName: "ミロカロス", type: "みず", attack: 91, hasGimmick: false, gimmick: "", category: "特殊" },
@@ -836,15 +837,15 @@
       { id: "IMG_5272", season: "W", name: "リーフィア", searchName: "リーフィア", type: "くさ", attack: 141, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5273", season: "W", name: "グレイシア", searchName: "グレイシア", type: "こおり", attack: 166, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5274", season: "W", name: "ミュウ<br><span style=\"font-size:10px;color:#9ca3af\">Mew</span>", searchName: "ミュウ", type: "エスパー", attack: 119, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5275", season: "W", name: "ラプラス<br><span style=\"font-size:10px;color:#9ca3af\">Lapras</span>", searchName: "ラプラス", type: "こおり", attack: 107, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5276", season: "W", name: "アローラキュウコン<br><span style=\"font-size:10px;color:#9ca3af\">Alolan Ninetales</span>", searchName: "アローラキュウコン", type: "こおり", attack: 103, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5275", season: "W", name: "ラプラス<br><span style=\"font-size:10px;color:#9ca3af\">Lapras</span>", searchName: "ラプラス", type: "こおり", attack: 107, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
+      { id: "IMG_5276", season: "W", name: "アローラキュウコン<br><span style=\"font-size:10px;color:#9ca3af\">Alolan Ninetales</span>", searchName: "アローラキュウコン", type: "こおり", attack: 103, hasGimmick: true, gimmick: "Zワザ", category: "特殊" },
       { id: "IMG_5277", season: "W", name: "ピカチュウ<br><span style=\"font-size:10px;color:#9ca3af\">Pikachu</span>", searchName: "ピカチュウ", type: "でんき", attack: 85, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5278", season: "W", name: "ジュペッタ<br><span style=\"font-size:10px;color:#9ca3af\">Banette</span>", searchName: "ジュペッタ", type: "ゴースト", attack: 145, hasGimmick: true, gimmick: "メガシンカ", category: "物理" },
       { id: "IMG_5279", season: "W", name: "ダークライ<br><span style=\"font-size:10px;color:#9ca3af\">Darkrai</span>", searchName: "ダークライ", type: "あく", attack: 153, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5280", season: "W", name: "フリーザー<br><span style=\"font-size:10px;color:#9ca3af\">Articuno</span>", searchName: "フリーザー", type: "こおり", attack: 107, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5281", season: "W", name: "サンダー<br><span style=\"font-size:10px;color:#9ca3af\">Zapdos</span>", searchName: "サンダー", type: "でんき", attack: 140, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5282", season: "W", name: "ファイヤー<br><span style=\"font-size:10px;color:#9ca3af\">Moltres</span>", searchName: "ファイヤー", type: "ほのお", attack: 140, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5283", season: "W", name: "メガフシギバナ<br><span style=\"font-size:10px;color:#9ca3af\">Venusaur</span>", searchName: "メガフシギバナ", type: "くさ", attack: 113, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5283", season: "W", name: "メガフシギバナ<br><span style=\"font-size:10px;color:#9ca3af\">Venusaur</span>", searchName: "メガフシギバナ", type: "くさ", attack: 113, hasGimmick: true, gimmick: "メガシンカ", category: "特殊" },
       { id: "IMG_5284", season: "W", name: "メガリザードンX<br><span style=\"font-size:10px;color:#9ca3af\">Charizard</span>", searchName: "メガリザードンX", type: "あく", attack: 95, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5285", season: "W", name: "メガリザードンY<br><span style=\"font-size:10px;color:#9ca3af\">Charizard</span>", searchName: "メガリザードンY", type: "ほのお", attack: 122, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5286", season: "W", name: "メガカメックス<br><span style=\"font-size:10px;color:#9ca3af\">Blastoise</span>", searchName: "メガカメックス", type: "みず", attack: 96, hasGimmick: false, gimmick: "", category: "特殊" },
@@ -857,15 +858,15 @@
       { id: "IMG_5293", season: "W", name: "ゲンガー<br><span style=\"font-size:10px;color:#9ca3af\">Gengar</span>", searchName: "ゲンガー", type: "ゴースト", attack: 122, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5294", season: "W", name: "ミミッキュ<br><span style=\"font-size:10px;color:#9ca3af\">Mimikyu</span>", searchName: "ミミッキュ", type: "フェアリー", attack: 86, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5295", season: "W", name: "ソウブレイズ<br><span style=\"font-size:10px;color:#9ca3af\">Ceruledge</span>", searchName: "ソウブレイズ", type: "ほのお", attack: 117, hasGimmick: false, gimmick: "", category: "物理" },
-      { id: "IMG_5242", season: "2-3", name: "デオキシス<br><span style=\"font-size:10px;color:#9ca3af\">Deoxys</span>", searchName: "デオキシス", type: "エスパー", attack: 146, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5243", season: "2-3", name: "ケルディオ<br><span style=\"font-size:10px;color:#9ca3af\">Keldeo</span>", searchName: "ケルディオ", type: "かくとう", attack: 126, hasGimmick: false, gimmick: "", category: "特殊" },
+      { id: "IMG_5242", season: "2-3", name: "デオキシス<br><span style=\"font-size:10px;color:#9ca3af\">Deoxys</span>", searchName: "デオキシス", type: "エスパー", attack: 146, hasGimmick: true, gimmick: "テラスタル", category: "特殊" },
+      { id: "IMG_5243", season: "2-3", name: "ケルディオ<br><span style=\"font-size:10px;color:#9ca3af\">Keldeo</span>", searchName: "ケルディオ", type: "かくとう", attack: 126, hasGimmick: true, gimmick: "Zワザ", category: "特殊" },
       { id: "IMG_5249", season: "2-3", name: "レックウザ<br><span style=\"font-size:10px;color:#9ca3af\">Rayquaza</span>", searchName: "レックウザ", type: "ひこう", attack: 137, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5251", season: "2-2", name: "ルギア<br><span style=\"font-size:10px;color:#9ca3af\">Lugia</span>", searchName: "ルギア", type: "ひこう", attack: 80, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5252", season: "2-2", name: "ホウオウ<br><span style=\"font-size:10px;color:#9ca3af\">Ho-Oh</span>", searchName: "ホウオウ", type: "ほのお", attack: 114, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5259", season: "2-2", name: "ゲッコウガ<br><span style=\"font-size:10px;color:#9ca3af\">Greninja</span>", searchName: "ゲッコウガ", type: "みず", attack: 97, hasGimmick: false, gimmick: "", category: "特殊" },
       { id: "IMG_5260", season: "2-1", name: "コライドン<br><span style=\"font-size:10px;color:#9ca3af\">Koraidon</span>", searchName: "コライドン", type: "かくとう", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
       { id: "IMG_5261", season: "2-1", name: "ミライドン<br><span style=\"font-size:10px;color:#9ca3af\">Miraidon</span>", searchName: "ミライドン", type: "でんき", attack: 113, hasGimmick: false, gimmick: "", category: "特殊" },
-      { id: "IMG_5233", season: "2-1", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "みず", attack: 113, hasGimmick: false, gimmick: "", category: "物理" },
+      { id: "IMG_5233", season: "2-1", name: "オーガポン<br><span style=\"font-size:10px;color:#9ca3af\">Ogerpon</span>", searchName: "オーガポン", type: "みず", attack: 113, hasGimmick: true, gimmick: "テラスタル", category: "物理" },
     ];
 
     const K_PHYS = 0.271, K_SPEC = 0.284, GIMMICK_ADD_BASE = 60;
@@ -901,6 +902,7 @@
 
     // ─── 状態 ───
     let SEL = "ノーマル";
+    let GIMMICK_FILTER = "全て"; // 全て / メガシンカ / テラスタル / Zワザ
     const VOTES = {};
     const BBS_CACHE = {};
 
@@ -914,6 +916,7 @@
       document.querySelector("header").appendChild(hPill);
 
       renderTypeGrid();
+      renderGimmickFilter();
       renderHero();
       renderCards();
       renderBBS();
@@ -937,6 +940,29 @@
       div.appendChild(grid); wrap.appendChild(div);
     }
 
+    function renderGimmickFilter() {
+      const wrap = document.getElementById("gimmick-filter-container");
+      wrap.innerHTML = "";
+      const div = document.createElement("div");
+      div.style.cssText = "display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;padding:0 2px;";
+      const filters = [
+        { key: "全て", label: "🔍 全て", color: "#1a1a2e" },
+        { key: "メガシンカ", label: "メガ", color: "#006eff" },
+        { key: "テラスタル", label: "テラ", color: "#00aa66" },
+        { key: "Zワザ", label: "Ｚ技", color: "#e67e00" },
+      ];
+      filters.forEach(f => {
+        const btn = document.createElement("button");
+        const isActive = GIMMICK_FILTER === f.key;
+        btn.style.cssText = `padding:5px 14px;border-radius:20px;border:1.5px solid ${f.color};background:${isActive ? f.color : "#fff"};
+          color:${isActive ? "#fff" : f.color};font-size:11px;font-weight:800;cursor:pointer;font-family:inherit;transition:all .15s;`;
+        btn.textContent = f.label;
+        btn.onclick = () => { GIMMICK_FILTER = f.key; render(); };
+        div.appendChild(btn);
+      });
+      wrap.appendChild(div);
+    }
+
     function renderHero() {
       const wrap = document.getElementById("type-hero-container");
       const ranked = RANKINGS[SEL], cfg = TYPE_CONFIG[SEL];
@@ -952,7 +978,17 @@
       const wrap = document.getElementById("cards-container");
       wrap.innerHTML = '<div class="cards" id="card-list"></div>';
       const list = document.getElementById("card-list");
-      const ranked = RANKINGS[SEL];
+      let ranked = RANKINGS[SEL];
+      // ギミックフィルター適用
+      if (GIMMICK_FILTER !== "全て") {
+        ranked = ranked.filter(p => p.gimmick === GIMMICK_FILTER);
+        if (!ranked.length) {
+          // フィルター対象がないときは全デduped からタイプ一致・gimmick一致で再検索（TOP5外も含む）
+          const label = { メガシンカ: "メガ", テラスタル: "テラ", Zワザ: "Ｚ" }[GIMMICK_FILTER] || GIMMICK_FILTER;
+          list.innerHTML = `<div style="text-align:center;color:#9ca3af;padding:48px 0;font-size:13px">${SEL}タイプに<br><b style="color:#1a1a2e">${label}</b>ピックはありません</div>`;
+          return;
+        }
+      }
       if (!ranked.length) { list.innerHTML = '<div style="text-align:center;color:#9ca3af;padding:48px 0">このタイプのデータはありません</div>'; return; }
       ranked.forEach((p, i) => list.appendChild(makeCard(p, i)));
     }
@@ -985,7 +1021,7 @@
       <div style="display:flex;align-items:center;flex-wrap:wrap;gap:5px;">
           <span class="poke-name${rank === 0 ? " first" : ""}" itemprop="name">${p.name}</span>
           <span class="badge" style="background:${kp.color};color:${kp.tc}">${kp.label}</span>
-          ${p.gimmick ? `<span class="badge" style="background:#4422ee">${{ Zワザ: "Ｚ", メガシンカ: "Ω", テラスタル: "テラ", ワンダー: "✦W", 専用技: "専用" }[p.gimmick] || p.gimmick}</span>` : ""}
+          ${p.gimmick ? `<span class="badge" style="background:${{ Zワザ: "#e67e00", メガシンカ: "#006eff", テラスタル: "#00aa66", ワンダー: "#9933cc", 専用技: "#555" }[p.gimmick] || "#4422ee"}">  ${{ Zワザ: "Ｚ", メガシンカ: "メガ", テラスタル: "テラ", ワンダー: "✦W", 専用技: "専用" }[p.gimmick] || p.gimmick}</span>` : ""}
         </div>
         <div class="meta">
           <span>${p.category === "物理" ? "攻撃" : "特攻"}<b style="font-size:13px;color:#1a1a2e;margin-left:3px">${p.attack}</b>${p.hasGimmick ? `<span style="color:#9ca3af;font-size:10px"> +${GIMMICK_ADD_BASE}</span>` : ""}</span>
